@@ -6,6 +6,4 @@ content/*
 !/content/themes/
 /content/themes/*
 !/content/themes/zumba-christele
-/content/themes/zumba-christele/node_modules/
-/content/themes/zumba-christele/public/
 !content/index.php
