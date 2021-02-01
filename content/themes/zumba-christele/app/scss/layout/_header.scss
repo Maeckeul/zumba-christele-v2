@@ -1,0 +1,17 @@
+.header {
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    z-index: 2;
+
+    @media screen and (min-width: 1700px){
+        padding: 0 15em;
+    }
+
+    &--is-fixed {
+        position: fixed;
+    }
+}

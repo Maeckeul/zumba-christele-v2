@@ -1,0 +1,24 @@
+.social {
+
+    padding-bottom: 1.5em;
+    
+    &__list {
+        display: flex;
+        justify-content: center;
+
+        &--item {
+
+            .social__list--link {
+                font-size: 30px;
+
+                .fa {
+                    margin-right: 1em;
+                }
+            }
+
+            .social__list--link:hover {
+                color: $dark-orange;
+            }
+        }
+    }
+}

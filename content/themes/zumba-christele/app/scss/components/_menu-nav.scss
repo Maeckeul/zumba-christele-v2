@@ -1,0 +1,45 @@
+.main-nav {
+
+    width: 60%;
+
+    &__list {
+
+        &--item {
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+
+            &--link {
+                margin-bottom: 2em;
+                padding-bottom: 2em;
+                border-bottom: 1px solid $white;
+
+                &:nth-child(7n+7) {
+                    border-bottom: none;
+                }
+
+                .fa {
+                    margin-right: 0.3em;
+                }
+
+                .fa-facebook-square{
+                    font-size: 25px;
+                }
+
+                .fa-youtube{
+                    font-size: 25px;
+                }
+            }
+
+            .main-nav__list--item--link:hover {
+                color: $dark-orange;
+            }
+
+            .main-nav__list--item--link.active {
+                color: $dark-orange;
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.intro {
+    width: 100%;
+    padding-bottom: 4em;
+    background-color: $light-grey;
+    text-align: center;
+
+
+    &__bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $light-grey;
+        padding-top: 3em;
+        padding-bottom: 3em;
+
+        @media screen and (min-width: $breakpoint-medium) {
+            flex-direction: row;
+            padding: 3em 5em;
+        }
+
+        @media screen and (min-width: $breakpoint-extra-large) {
+            padding: 3em 10em 3em 15em;
+        }
+
+        &--picture {
+
+            object-fit: cover;
+            border-radius: 50%;
+            height: 450px;
+            width: 450px;
+            background-position: center;
+            margin: auto;
+            margin-bottom: 3em;
+
+            @media screen and (max-width: $breakpoint-small) {
+                width: 200px; 
+                height: 200px;
+                display: flex;
+                justify-content: center;
+            }
+
+            @media screen and (min-width: $breakpoint-medium) {
+                height: 10em;
+                width: 10em;
+                margin: 0;
+            }
+
+            @media screen and (min-width: $breakpoint-large) {
+                height: 300px;
+                width: 300px;
+            }
+        }
+    }
+
+    &--content {
+
+        &--content {
+            display: flex;
+            margin: 2em auto;
+            align-items: center;
+            width: 70%;
+            font-size: 14px;
+            line-height: 1.6em;
+            text-align: start;
+        
+
+            @media screen and (min-width: $breakpoint-medium) {
+                margin: 0 0 2em 2em;
+                width: 100%;
+                font-size: 18px;
+            }
+        
+
+            @media screen and (min-width: $breakpoint-large) {
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+            }
+
+            @media screen and (min-width: $breakpoint-extra-large) {
+                display: flex;
+                align-items: center;
+                width: 70%;
+            }
+        }
+    }
+
+    .christele--link {
+        font-size: 14px;
+        background-color: $dark-orange;
+        font-weight: bold;
+        padding: 1em 0.7em;
+        border-radius: 10px;
+        color: #FFF5EE;
+
+        @media screen and (min-width: $breakpoint-medium) {
+            margin-left: 4em;
+            font-size: 18px;
+        }
+
+        @media screen and (min-width: $breakpoint-extra-large) {
+            margin-left: 11em;
+        }
+
+        @media screen and (min-width: 1800px) {
+            margin-left: 0;
+        }
+    }
+}

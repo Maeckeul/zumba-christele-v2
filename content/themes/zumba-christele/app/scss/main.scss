@@ -1,0 +1,42 @@
+@charset 'utf8';
+
+@import
+    'abstracts/vars';
+
+@import
+    '~reset-css/sass/reset';
+
+@import
+    'base/base',
+    'base/typo';
+
+@import
+    'layout/breadcrumb',
+    'layout/wrapper',
+    'layout/header',
+    'layout/faculties',
+    'layout/footer',
+    'layout/main',
+    'layout/menu',
+    'layout/contacts';
+
+
+
+@import
+    'components/header-logo',
+    'components/header-nav',
+    'components/intro',
+    'components/comments',
+    'components/social',
+    'components/footer-logo',
+    'components/logo-menu',
+    'components/grid',
+    'components/media-grid',
+    'components/intro-presentation',
+    'components/menu-nav',
+    'components/ui-button',
+    'components/form-button',
+    'components/banner';
+
+@import
+    'shame';

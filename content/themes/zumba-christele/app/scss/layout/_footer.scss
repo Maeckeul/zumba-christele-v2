@@ -1,0 +1,19 @@
+.footer {
+    padding: 1em 0;
+    background-color: $black;
+    color: $white;
+
+    .info {
+
+        &--content {
+            font-size: 10px;
+            text-align: center;
+            font-weight: 500;
+
+            @media screen and (min-width: $breakpoint-medium) {
+                font-size: 12px;
+            }
+        }
+    }
+}
+

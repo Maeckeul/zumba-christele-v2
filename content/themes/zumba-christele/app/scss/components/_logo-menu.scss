@@ -1,0 +1,24 @@
+.logo-menu {
+    display: flex;
+    align-items: center;
+
+    .ui-button {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2.1em;
+        font-size: 1.5em;
+
+        .logo-menu__text {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+
+    .ui-button:hover {
+        color: $dark-orange;
+    }
+
+    @media screen and (min-width: $breakpoint-extra-large) {
+       display: none;
+    }
+}
