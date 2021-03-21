@@ -7,9 +7,13 @@
         &--item {
             display: flex;
             flex-direction: column;
-            font-size: 18px;
+            font-size: 14px;
             font-weight: bold;
             text-align: center;
+
+            @media screen and (min-width: $breakpoint-medium) {
+                font-size: 18px;
+            }
 
             &--link {
                 margin-bottom: 2em;

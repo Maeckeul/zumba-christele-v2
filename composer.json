@@ -6,11 +6,7 @@
         }
     ],
     "require": {
-        "johnpbloch/wordpress": "^5.4",
-        "wpackagist-plugin/akismet":"*",
-        "wpackagist-plugin/hello-dolly":"*",
-        "wpackagist-theme/hueman":"*",
-        "wpackagist-theme/twentytwenty":"*"
+        "johnpbloch/wordpress": "^5.4"
     },
     "extra": {
         "wordpress-install-dir": "wp",

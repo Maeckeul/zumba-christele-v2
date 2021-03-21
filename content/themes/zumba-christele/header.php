@@ -15,7 +15,7 @@
     <header class="header">
 
       <div class="header-logo">
-        <a href="http://localhost/WordPress/Zumba-Christele-V2-WP/" class="header-logo--link">
+        <a href="<?= home_url(); ?>" class="header-logo--link">
           <img src="<?= get_template_directory_uri() ?>/public/img/logo.jpeg" alt="Logo" class="header-logo__img">
           <h1 class="header-logo--brand">Zumba Christele</h1>
         </a>
